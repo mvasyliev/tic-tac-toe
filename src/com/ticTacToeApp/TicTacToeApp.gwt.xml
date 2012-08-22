@@ -1,0 +1,13 @@
+<module rename-to="TicTacToeApp">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='com.ticTacToeApp.client.TicTacToeApp'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/TicTacToeAppService' class='com.ticTacToeApp.server.TicTacToeAppServiceImpl'/>
+
+</module>
