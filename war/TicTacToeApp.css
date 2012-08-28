@@ -9,3 +9,22 @@ h1 {
 body, td, a, div, .p {
     font-family: arial, sans-serif
 }
+
+#gameFieldID button {
+    width: 85px;
+    height: 85px;
+}
+
+#gameFieldID .crossImgBtn {
+    background-image: url('img/cross.gif');
+}
+
+#gameFieldID .circleImgBtn {
+    background-image: url('img/circle.gif');
+}
+
+.gwt-DialogBox {
+    background-color: graytext;
+    border: 1px solid red;
+    padding: 5px;
+}

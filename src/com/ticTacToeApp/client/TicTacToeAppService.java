@@ -6,19 +6,11 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 @RemoteServiceRelativePath("TicTacToeAppService")
 public interface TicTacToeAppService extends RemoteService {
-    // Sample interface method of remote interface
+    int DIM = 3;
 
-    String getMessage(String msg);
+    int[] getNextMove(int x, int y);
 
-    /**
-     * Utility/Convenience class.
-     * Use TicTacToeAppService.App.getInstance() to access static instance of TicTacToeAppServiceAsync
-     */
-    public static class App {
-        private static TicTacToeAppServiceAsync ourInstance = GWT.create(TicTacToeAppService.class);
+    String checkWinner();
 
-        public static synchronized TicTacToeAppServiceAsync getInstance() {
-            return ourInstance;
-        }
-    }
+    void resetGame();
 }
