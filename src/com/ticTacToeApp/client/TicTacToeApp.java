@@ -99,7 +99,6 @@ public class TicTacToeApp implements EntryPoint {
             public void onSuccess(String result) {
                 if (result != null) {
                     _winnerMessage.setText(result);
-                    showAlert(result);
 
                     for (int i = 0; i < DIM; i++) {
                         for (int k = 0; k < DIM; k++) {
