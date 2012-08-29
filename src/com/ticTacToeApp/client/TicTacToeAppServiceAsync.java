@@ -8,4 +8,6 @@ public interface TicTacToeAppServiceAsync {
     void checkWinner(AsyncCallback<String> async);
 
     void resetGame(AsyncCallback<Void> async);
+
+    void getGameState(AsyncCallback<int[][]> async);
 }

@@ -18,6 +18,25 @@ public class TicTacToeApp implements EntryPoint {
     private Label _winnerMessage = new Label();
 
     public void onModuleLoad() {
+        _gameService.getGameState(new AsyncCallback<int[][]>() {
+
+            public void onFailure(Throwable caught) {
+                showAlert("Unable to reset the game: " + caught.getMessage());
+            }
+
+            public void onSuccess(int[][] result) {
+                for (int i = 0; i < DIM; i++) {
+                    for (int k = 0; k < DIM; k++) {
+                        if (result[i][k] == 0) {
+                            _gameButtons[i][k].setEnabled(true);
+                        } else {
+                            String style = result[i][k] == 1 ? "crossImgBtn" : "circleImgBtn";
+                            _gameButtons[i][k].setStyleName(style);
+                        }
+                    }
+                }
+            }
+        });
         VerticalPanel vPanel = new VerticalPanel();
 
         for (int i = 0; i < DIM; i++) {
@@ -25,6 +44,7 @@ public class TicTacToeApp implements EntryPoint {
 
             for (int k = 0; k < DIM; k++) {
                 Button button = new Button("");
+                button.setEnabled(false);
                 _gameButtons[i][k] = button;
                 hPanel.add(button);
 

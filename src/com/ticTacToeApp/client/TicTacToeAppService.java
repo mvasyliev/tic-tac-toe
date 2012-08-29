@@ -13,4 +13,6 @@ public interface TicTacToeAppService extends RemoteService {
     String checkWinner();
 
     void resetGame();
+
+    int[][] getGameState();
 }

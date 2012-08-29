@@ -44,6 +44,10 @@ public class TicTacToeAppServiceImpl extends RemoteServiceServlet implements Tic
         }
     }
 
+    public int[][] getGameState() {
+        return _gameField;
+    }
+
     public String checkWinner() {
         int state = calculateWinner();
 
