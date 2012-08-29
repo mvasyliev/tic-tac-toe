@@ -88,8 +88,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -99,21 +99,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToeApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="42" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="155" column="23" selection-start="5553" selection-end="5562" vertical-scroll-proportion="0.23312883">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeApp.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeApp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/war/TicTacToeApp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.48801368">
+            <state line="19" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="-12.391304">
               <folding />
             </state>
           </provider>
@@ -122,10 +120,19 @@
       <file leaf-file-name="TicTacToeAppServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/server/TicTacToeAppServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="26" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.0">
+            <state line="9" column="36" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteServiceServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/user/server/rpc/RemoteServiceServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="302" column="2" selection-start="11278" selection-end="11351" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,9 +172,9 @@
         <option value="$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeAppServiceAsync.java" />
         <option value="$PROJECT_DIR$/war/TicTacToeApp.css" />
         <option value="$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeAppService.java" />
+        <option value="$PROJECT_DIR$/war/TicTacToeApp.html" />
         <option value="$PROJECT_DIR$/src/com/ticTacToeApp/server/TicTacToeAppServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeApp.java" />
-        <option value="$PROJECT_DIR$/war/TicTacToeApp.html" />
       </list>
     </option>
   </component>
@@ -209,6 +216,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,8 +350,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,9 +364,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -367,6 +374,23 @@
     </key>
   </component>
   <component name="RunManager" selected="GWT Configuration.Debug Tic">
+    <configuration default="true" type="PhpRunConfigurationType" factoryName="PHP">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -376,6 +400,14 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" port="0" run_mode="HtmlOrSwfFile" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -390,6 +422,14 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AirRunConfigurationType" factoryName="AIR">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -425,6 +465,15 @@
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -515,30 +564,50 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="18" width="1660" height="1010" extended-state="0" />
+    <frame x="-9" y="18" width="1660" height="1010" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26036867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37442395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301887" sideWeight="0.37247923" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301887" sideWeight="0.33525345" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301887" sideWeight="0.37247923" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.59193355" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3301887" sideWeight="0.73156685" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3301887" sideWeight="0.6175115" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968554" sideWeight="0.73156685" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968554" sideWeight="0.4654378" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -611,25 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/TicTacToeApp.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="373" selection-end="373" vertical-scroll-proportion="0.18404908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/user/client/ui/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="490" column="9" selection-start="17286" selection-end="17286" vertical-scroll-proportion="-2.9150743" />
@@ -642,60 +692,72 @@
     </entry>
     <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/event/dom/client/ClickEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7819063">
-          <folding />
-        </state>
+        <state line="56" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7819063" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/war/TicTacToeApp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="490" selection-end="490" vertical-scroll-proportion="0.7924528">
-          <folding />
-        </state>
+        <state line="28" column="17" selection-start="490" selection-end="490" vertical-scroll-proportion="0.7924528" />
       </provider>
     </entry>
     <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/user/client/ui/VerticalPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="890" selection-end="890" vertical-scroll-proportion="0.3197158">
-          <folding />
-        </state>
+        <state line="27" column="13" selection-start="890" selection-end="890" vertical-scroll-proportion="0.3197158" />
       </provider>
     </entry>
     <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/core/client/GWT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.43367347">
-          <folding>
-            <marker date="1340265020000" expanded="true" signature="9880:9908" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeAppService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="25" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.43367347" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeAppServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+        <state line="11" column="20" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/user/server/rpc/RemoteServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="2" selection-start="11278" selection-end="11351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/com/google/gwt/user/server/rpc/AbstractRemoteServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="38" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.5462185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="559" selection-end="559" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="0.21428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///svnwork/tools/gwt-2.5.0.rc1/gwt-user.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="-0.09009009">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/server/TicTacToeAppServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0">
+        <state line="9" column="36" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -704,7 +766,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/war/TicTacToeApp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.48801368">
+        <state line="19" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="-12.391304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ticTacToeApp/client/TicTacToeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="23" selection-start="5553" selection-end="5562" vertical-scroll-proportion="0.23312883">
           <folding />
         </state>
       </provider>

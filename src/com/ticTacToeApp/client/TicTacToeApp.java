@@ -21,7 +21,7 @@ public class TicTacToeApp implements EntryPoint {
         _gameService.getGameState(new AsyncCallback<int[][]>() {
 
             public void onFailure(Throwable caught) {
-                showAlert("Unable to reset the game: " + caught.getMessage());
+                showAlert("Unable to initialize game: " + caught.getMessage());
             }
 
             public void onSuccess(int[][] result) {

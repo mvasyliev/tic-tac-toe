@@ -3,9 +3,11 @@ package com.ticTacToeApp.server;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.ticTacToeApp.client.TicTacToeAppService;
 
+import javax.servlet.http.HttpSession;
 import java.util.Random;
 
 public class TicTacToeAppServiceImpl extends RemoteServiceServlet implements TicTacToeAppService {
+    private static String GAME_SESSION_ATTR = "GAME_STATE"; 
     private static int CROSS_SUM = DIM;
     private static int CIRCLE_SUM = DIM * 10;
     private static int MAX_MOVES = DIM * DIM;
@@ -102,4 +104,47 @@ public class TicTacToeAppServiceImpl extends RemoteServiceServlet implements Tic
         return 0;
     }
 
+    @Override
+    protected void onBeforeRequestDeserialized(String serializedRequest) {
+        HttpSession session = this.getThreadLocalRequest().getSession();
+        GameState gameState = (GameState)session.getAttribute(GAME_SESSION_ATTR);
+
+        if (gameState == null) {
+            gameState = new GameState();
+            session.setAttribute(GAME_SESSION_ATTR, gameState);
+        }
+        
+        _gameField = gameState.getGameField();
+        _moves = gameState.getMoves();
+    }
+
+    @Override
+    protected void onAfterResponseSerialized(String serializedResponse) {
+        HttpSession session = this.getThreadLocalRequest().getSession();
+        GameState gameState = (GameState)session.getAttribute(GAME_SESSION_ATTR);
+
+        gameState.setGameField(_gameField);
+        gameState.setMoves(_moves);
+    }
+    
+    private class GameState {
+        private int[][] _gameField = new int[DIM][DIM];
+        private int _moves;
+
+        public int getMoves() {
+            return _moves;
+        }
+
+        public void setMoves(int moves) {
+            _moves = moves;
+        }
+
+        public int[][] getGameField() {
+            return _gameField;
+        }
+
+        public void setGameField(int[][] gameField) {
+            _gameField = gameField;
+        }
+    }
 }
