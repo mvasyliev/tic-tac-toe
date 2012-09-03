@@ -3,6 +3,9 @@
     <!-- Inherit the core Web Toolkit stuff.                  -->
     <inherits name='com.google.gwt.user.User'/>
 
+    <inherits name='com.google.gwt.uibinder.UiBinder'/>
+    <inherits name="com.google.gwt.resources.Resources" />
+
     <!-- Specify the app entry point class.                   -->
     <entry-point class='com.ticTacToeApp.client.TicTacToeApp'/>
 

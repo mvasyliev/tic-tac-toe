@@ -6,24 +6,31 @@ h1 {
     text-align: center;
 }
 
-body, td, a, div, .p {
+body, td, a, div {
     font-family: arial, sans-serif
 }
 
-.gameField button {
-    width: 85px;
-    height: 85px;
+@def btnWidth 85px;
+@def btnHeight 85px;
+
+@sprite .gameField .crossImgBtn {
+    gwt-image: "crossImage";
+    width: btnWidth;
+    height: btnHeight;
 }
 
-.gameField .crossImgBtn {
-    background-image: url('img/cross.gif');
-}
-
-.gameField .circleImgBtn {
-    background-image: url('img/circle.gif');
+@sprite .gameField .circleImgBtn {
+    gwt-image: "circleImage";
+    width: btnWidth;
+    height: btnHeight;
 }
 
 #game-widget {
     width: 270px;
     margin: 0 auto;
+}
+
+.gameField button {
+    width: btnWidth;
+    height: btnHeight;
 }
