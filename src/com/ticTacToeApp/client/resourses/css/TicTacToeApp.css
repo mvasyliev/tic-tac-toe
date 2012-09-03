@@ -10,21 +10,20 @@ body, td, a, div, .p {
     font-family: arial, sans-serif
 }
 
-#gameFieldID button {
+.gameField button {
     width: 85px;
     height: 85px;
 }
 
-#gameFieldID .crossImgBtn {
+.gameField .crossImgBtn {
     background-image: url('img/cross.gif');
 }
 
-#gameFieldID .circleImgBtn {
+.gameField .circleImgBtn {
     background-image: url('img/circle.gif');
 }
 
-.gwt-DialogBox {
-    background-color: graytext;
-    border: 1px solid red;
-    padding: 5px;
+#game-widget {
+    width: 270px;
+    margin: 0 auto;
 }

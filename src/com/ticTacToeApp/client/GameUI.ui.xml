@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <g:VerticalPanel>
+        <g:CheckBox ui:field="_computerPlaysFirst" text="Computer plays first"/>
+
+        <g:Label ui:field="_winnerLabel" />
+        <g:VerticalPanel ui:field="_vGamePanel" />
+
+        <g:Button ui:field="_resetButton" text="Reset"/>
+
+    </g:VerticalPanel>
+</ui:UiBinder>
