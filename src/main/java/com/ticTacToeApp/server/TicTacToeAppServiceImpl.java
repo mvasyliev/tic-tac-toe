@@ -2,10 +2,12 @@ package com.ticTacToeApp.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.ticTacToeApp.client.TicTacToeAppService;
+import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpSession;
 import java.util.Random;
 
+@Service("gameService")
 public class TicTacToeAppServiceImpl extends RemoteServiceServlet implements TicTacToeAppService {
     private static String GAME_SESSION_ATTR = "GAME_STATE"; 
     private static int CROSS_SUM = DIM;

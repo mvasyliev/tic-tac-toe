@@ -5,13 +5,20 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
 
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!-- Front Controller for all GWT-Spring based servlets -->
     <servlet>
-        <servlet-name>com.ticTacToeApp.TicTacToeApp TicTacToeAppService</servlet-name>
-        <servlet-class>com.ticTacToeApp.server.TicTacToeAppServiceImpl</servlet-class>
+        <servlet-name>gwt</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!-- Don't forget to declare a gwt-servlet.xml -->
     <servlet-mapping>
-        <servlet-name>com.ticTacToeApp.TicTacToeApp TicTacToeAppService</servlet-name>
-        <url-pattern>/TicTacToeApp/TicTacToeAppService</url-pattern>
+        <servlet-name>gwt</servlet-name>
+        <url-pattern>TicTacToeApp/rpc/*</url-pattern>
     </servlet-mapping>
 </web-app>

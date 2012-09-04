@@ -3,7 +3,7 @@ package com.ticTacToeApp.client;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
-@RemoteServiceRelativePath("TicTacToeAppService")
+@RemoteServiceRelativePath("rpc/game")
 public interface TicTacToeAppService extends RemoteService {
     int DIM = 3;
 
