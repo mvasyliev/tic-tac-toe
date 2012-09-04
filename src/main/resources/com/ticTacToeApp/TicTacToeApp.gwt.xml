@@ -5,6 +5,7 @@
 
     <inherits name='com.google.gwt.uibinder.UiBinder'/>
     <inherits name="com.google.gwt.resources.Resources" />
+    <inherits name="com.ticTacToeApp.TicTacToeApp"/>
 
     <!-- Specify the app entry point class.                   -->
     <entry-point class='com.ticTacToeApp.client.TicTacToeApp'/>
